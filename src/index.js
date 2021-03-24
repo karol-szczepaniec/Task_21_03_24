@@ -1,12 +1,20 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Post from "./Post";
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Router>
+         <Switch>
+             <Route exact path="/" component={App}/>
+             <Route path="/post/:id" component={Post}/>
+         </Switch>
+      </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

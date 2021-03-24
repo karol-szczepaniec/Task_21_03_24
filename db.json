@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "One",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "Two",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "Three",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "Four",
+      "author": "typicode"
+    },
+    {
+      "id": 5,
+      "title": "Five",
+      "author": "typicode"
+    },
+    {
+      "id": 6,
+      "title": "Six",
+      "author": "typicode"
+    },
+    {
+      "id": 7,
+      "title": "seven",
+      "author": "typicode"
+    },
+    {
+      "id": 8,
+      "title": "eight",
+      "author": "typicode"
+    },
+    {
+      "id": 9,
+      "title": "nine",
+      "author": "typicode"
+    },
+    {
+      "id": 10,
+      "title": "ten",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
