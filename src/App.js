@@ -11,7 +11,7 @@ export default function App() {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postPerPage, setPostPerPage] = useState(3);
+    const [postPerPage, setPostPerPage] = useState(5);
 
     const [showingPosts, setShowingPosts] = useState([]);
     const [arrLength, setArrLength] = useState(null);
